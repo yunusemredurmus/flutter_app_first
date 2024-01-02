@@ -19,7 +19,7 @@ class _MainAppState extends State<MainApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('todo app'),
+          title: Text('Bugün ne yapacağım ?'),
           backgroundColor: Colors.blue,
         ),
         body: Column(
@@ -69,7 +69,7 @@ class _MainAppState extends State<MainApp> {
                   color: Colors.blue,
                 ),
               ),
-              hintText: "Tasks to do",
+              hintText: "Yapılacak işi giriniz",
             ),
           ),
         ),
@@ -84,7 +84,7 @@ class _MainAppState extends State<MainApp> {
                       })
                     : null;
               },
-              child: Text('Add', style: TextStyle(color: Colors.black))),
+              child: Text('Ekle', style: TextStyle(color: Colors.black))),
         ),
       ],
     );
